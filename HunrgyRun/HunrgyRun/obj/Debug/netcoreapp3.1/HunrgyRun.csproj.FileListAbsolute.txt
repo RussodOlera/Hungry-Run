@@ -15,3 +15,7 @@ C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug
 C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.dll
 C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.pdb
 C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.genruntimeconfig.cache
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.Form2.resources
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.Form3.resources
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.Form4.resources
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.Form5.resources

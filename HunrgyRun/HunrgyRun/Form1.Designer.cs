@@ -69,6 +69,7 @@ namespace HunrgyRun
             this.button9 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.panelChildFrom = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -111,7 +112,7 @@ namespace HunrgyRun
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(160, 44);
             this.button8.TabIndex = 8;
-            this.button8.Text = "Il tuo carrello";
+            this.button8.Text = "Il mio carrello";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button8.UseVisualStyleBackColor = true;
             // 
@@ -175,6 +176,7 @@ namespace HunrgyRun
             this.button2.TabIndex = 5;
             this.button2.Text = "Register";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -417,6 +419,7 @@ namespace HunrgyRun
             this.button15.TabIndex = 5;
             this.button15.Text = "button15";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button12
             // 
@@ -426,6 +429,7 @@ namespace HunrgyRun
             this.button12.TabIndex = 2;
             this.button12.Text = "button12";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button14
             // 
@@ -435,6 +439,7 @@ namespace HunrgyRun
             this.button14.TabIndex = 4;
             this.button14.Text = "button14";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button13
             // 
@@ -444,6 +449,7 @@ namespace HunrgyRun
             this.button13.TabIndex = 3;
             this.button13.Text = "button13";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // panel5
             // 
@@ -486,11 +492,21 @@ namespace HunrgyRun
             this.label1.TabIndex = 0;
             this.label1.Text = "A voi la scelta!";
             // 
+            // panelChildFrom
+            // 
+            this.panelChildFrom.BackColor = System.Drawing.Color.White;
+            this.panelChildFrom.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelChildFrom.Location = new System.Drawing.Point(250, 120);
+            this.panelChildFrom.Name = "panelChildFrom";
+            this.panelChildFrom.Size = new System.Drawing.Size(1134, 668);
+            this.panelChildFrom.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1384, 788);
+            this.Controls.Add(this.panelChildFrom);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -556,6 +572,7 @@ namespace HunrgyRun
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Panel panelChildFrom;
     }
 }
 

@@ -44,6 +44,23 @@ namespace HunrgyRun
             else
                 panel.Visible = false;
         }
+
+        private Form activeForm = null;
+        private void openChilFormMenu(Form childForm)
+        {
+            if(activeForm!=null)
+            {
+                activeForm.Close();
+            }
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelChildFrom.Controls.Add(childForm);
+            panelChildFrom.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
         private void button7_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
@@ -83,6 +100,31 @@ namespace HunrgyRun
         private void button11_Click(object sender, EventArgs e)
         {
             show_menu(panel6);
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            openChilFormMenu(new Form2());
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            openChilFormMenu(new Form3());
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            openChilFormMenu(new Form4());
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            openChilFormMenu(new Form5());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

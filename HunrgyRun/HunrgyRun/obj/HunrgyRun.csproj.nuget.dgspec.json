@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elisa\\source\\repos\\RussodOlera\\Hungry-Run\\HunrgyRun\\HunrgyRun\\HunrgyRun.csproj": {}
+    "C:\\Users\\elisa\\Source\\Repos\\RussodOlera\\Hungry-Run\\HunrgyRun\\HunrgyRun\\HunrgyRun.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elisa\\source\\repos\\RussodOlera\\Hungry-Run\\HunrgyRun\\HunrgyRun\\HunrgyRun.csproj": {
+    "C:\\Users\\elisa\\Source\\Repos\\RussodOlera\\Hungry-Run\\HunrgyRun\\HunrgyRun\\HunrgyRun.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elisa\\source\\repos\\RussodOlera\\Hungry-Run\\HunrgyRun\\HunrgyRun\\HunrgyRun.csproj",
+        "projectUniqueName": "C:\\Users\\elisa\\Source\\Repos\\RussodOlera\\Hungry-Run\\HunrgyRun\\HunrgyRun\\HunrgyRun.csproj",
         "projectName": "HunrgyRun",
-        "projectPath": "C:\\Users\\elisa\\source\\repos\\RussodOlera\\Hungry-Run\\HunrgyRun\\HunrgyRun\\HunrgyRun.csproj",
+        "projectPath": "C:\\Users\\elisa\\Source\\Repos\\RussodOlera\\Hungry-Run\\HunrgyRun\\HunrgyRun\\HunrgyRun.csproj",
         "packagesPath": "C:\\Users\\elisa\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\elisa\\Source\\Repos\\RussodOlera\\Hungry-Run\\HunrgyRun\\HunrgyRun\\obj\\",
         "projectStyle": "PackageReference",
