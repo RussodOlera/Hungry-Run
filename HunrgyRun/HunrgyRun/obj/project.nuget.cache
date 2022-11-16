@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OdxkpEZoeIkAGop2GmpKreDjw6le5f+cDHtmLCWnozSbXC6F7gLWtq2HP1BuYtQnqEyjQpK8gJIXtAph0CNLXg==",
+  "dgSpecHash": "JovH4JX61rVCjBxKe/J0lm8tizLGrG0cYA5DKtlYfdrqGTrGHCHNxyaFWmlscnUWMMEkNwAsQNWoPKFu3TbiTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elizarov.19445\\Desktop\\Hungry-Run\\HunrgyRun\\HunrgyRun\\HunrgyRun.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\elizarov.19445\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\elisa\\source\\repos\\RussodOlera\\Hungry-Run\\HunrgyRun\\HunrgyRun\\HunrgyRun.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

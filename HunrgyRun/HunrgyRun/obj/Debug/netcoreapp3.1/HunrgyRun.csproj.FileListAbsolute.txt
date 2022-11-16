@@ -1,0 +1,17 @@
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\bin\Debug\netcoreapp3.1\HunrgyRun.exe
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\bin\Debug\netcoreapp3.1\HunrgyRun.deps.json
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\bin\Debug\netcoreapp3.1\HunrgyRun.runtimeconfig.json
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\bin\Debug\netcoreapp3.1\HunrgyRun.runtimeconfig.dev.json
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\bin\Debug\netcoreapp3.1\HunrgyRun.dll
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\bin\Debug\netcoreapp3.1\HunrgyRun.pdb
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.csproj.AssemblyReference.cache
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.Form1.resources
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.Properties.Resources.resources
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.csproj.GenerateResource.cache
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.AssemblyInfoInputs.cache
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.AssemblyInfo.cs
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.csproj.CoreCompileInputs.cache
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.dll
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.pdb
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.genruntimeconfig.cache

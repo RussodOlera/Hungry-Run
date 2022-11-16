@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\HunrgyRun",
+    "\\HunrgyRun\\HunrgyRun",
+    "\\HunrgyRun\\HunrgyRun\\bin\\Debug",
+    "\\HunrgyRun\\HunrgyRun\\bin\\Debug\\netcoreapp3.1"
   ],
+  "SelectedNode": "\\HunrgyRun\\HunrgyRun\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
