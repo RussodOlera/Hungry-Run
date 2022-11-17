@@ -124,7 +124,15 @@ namespace HunrgyRun
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Form f = new Form_Register();
+            //this.WindowState = FormWindowState.Minimized;
+            f.Show();
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form f = new Form_LogIn();
+            f.Show();
         }
     }
 }
