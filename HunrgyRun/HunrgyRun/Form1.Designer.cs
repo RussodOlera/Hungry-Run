@@ -41,9 +41,6 @@ namespace HunrgyRun
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -85,6 +82,7 @@ namespace HunrgyRun
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.panel1.Controls.Add(this.button8);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button6);
@@ -104,8 +102,10 @@ namespace HunrgyRun
             // 
             // button8
             // 
+            this.button8.FlatAppearance.BorderSize = 2;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button8.Image = global::HunrgyRun.Properties.Resources.shopping_cart;
             this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button8.Location = new System.Drawing.Point(274, 18);
@@ -115,9 +115,11 @@ namespace HunrgyRun
             this.button8.Text = "Il mio carrello";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button5
             // 
+            this.button5.FlatAppearance.BorderSize = 2;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Image = global::HunrgyRun.Properties.Resources.minimize_sign;
             this.button5.Location = new System.Drawing.Point(1252, 12);
@@ -129,6 +131,7 @@ namespace HunrgyRun
             // 
             // button6
             // 
+            this.button6.FlatAppearance.BorderSize = 2;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Image = global::HunrgyRun.Properties.Resources.full_screen;
             this.button6.Location = new System.Drawing.Point(1292, 12);
@@ -140,7 +143,8 @@ namespace HunrgyRun
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.White;
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.button7.FlatAppearance.BorderSize = 2;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
             this.button7.Location = new System.Drawing.Point(1332, 12);
@@ -152,15 +156,24 @@ namespace HunrgyRun
             // 
             // button4
             // 
+            this.button4.FlatAppearance.BorderSize = 2;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button4.Location = new System.Drawing.Point(1252, 65);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(120, 44);
             this.button4.TabIndex = 7;
             this.button4.Text = "Log Out";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
+            this.button3.FlatAppearance.BorderSize = 2;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button3.Location = new System.Drawing.Point(1123, 65);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(120, 44);
@@ -171,6 +184,10 @@ namespace HunrgyRun
             // 
             // button2
             // 
+            this.button2.FlatAppearance.BorderSize = 2;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button2.Location = new System.Drawing.Point(1123, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 44);
@@ -178,9 +195,12 @@ namespace HunrgyRun
             this.button2.Text = "Register";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.MouseEnter += new System.EventHandler(this.button2_MouseEnter);
             // 
             // button1
             // 
+            this.button1.FlatAppearance.BorderSize = 2;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = global::HunrgyRun.Properties.Resources.magnifying_glass;
             this.button1.Location = new System.Drawing.Point(815, 65);
             this.button1.Name = "button1";
@@ -190,59 +210,28 @@ namespace HunrgyRun
             // 
             // textBox1
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.textBox1.Location = new System.Drawing.Point(274, 68);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(535, 32);
+            this.textBox1.Size = new System.Drawing.Size(535, 39);
             this.textBox1.TabIndex = 3;
             this.textBox1.Text = "Ristoranti,Fast Food,Supermercati";
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.linkLabel3);
-            this.panel3.Controls.Add(this.linkLabel2);
-            this.panel3.Controls.Add(this.linkLabel1);
             this.panel3.Controls.Add(this.pictureBox1);
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(250, 120);
             this.panel3.TabIndex = 2;
             // 
-            // linkLabel3
-            // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(149, 82);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(54, 15);
-            this.linkLabel3.TabIndex = 3;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Modifica";
-            // 
-            // linkLabel2
-            // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(149, 56);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(68, 15);
-            this.linkLabel2.TabIndex = 2;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "I tuoi ordini";
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(149, 27);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(82, 15);
-            this.linkLabel1.TabIndex = 1;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Il tuo Account";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::HunrgyRun.Properties.Resources.user__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(53, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(128, 128);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -251,6 +240,7 @@ namespace HunrgyRun
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.panel2.Controls.Add(this.panel6);
             this.panel2.Controls.Add(this.panel7);
             this.panel2.Controls.Add(this.panel8);
@@ -261,11 +251,12 @@ namespace HunrgyRun
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 120);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(250, 668);
+            this.panel2.Size = new System.Drawing.Size(250, 762);
             this.panel2.TabIndex = 1;
             // 
             // panel6
             // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.panel6.Controls.Add(this.button20);
             this.panel6.Controls.Add(this.button21);
             this.panel6.Controls.Add(this.button23);
@@ -278,39 +269,59 @@ namespace HunrgyRun
             // 
             // button20
             // 
+            this.button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button20.FlatAppearance.BorderSize = 2;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button20.Location = new System.Drawing.Point(0, 114);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(250, 30);
             this.button20.TabIndex = 9;
-            this.button20.Text = "button20";
-            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Text = "MD";
+            this.button20.UseVisualStyleBackColor = false;
             // 
             // button21
             // 
+            this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button21.FlatAppearance.BorderSize = 2;
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button21.Location = new System.Drawing.Point(0, 6);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(250, 30);
             this.button21.TabIndex = 6;
-            this.button21.Text = "button21";
-            this.button21.UseVisualStyleBackColor = true;
+            this.button21.Text = "Esselunga";
+            this.button21.UseVisualStyleBackColor = false;
             // 
             // button23
             // 
+            this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button23.FlatAppearance.BorderSize = 2;
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button23.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button23.Location = new System.Drawing.Point(0, 42);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(250, 30);
             this.button23.TabIndex = 7;
-            this.button23.Text = "button23";
-            this.button23.UseVisualStyleBackColor = true;
+            this.button23.Text = "Conad";
+            this.button23.UseVisualStyleBackColor = false;
             // 
             // button22
             // 
+            this.button22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button22.FlatAppearance.BorderSize = 2;
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button22.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button22.Location = new System.Drawing.Point(0, 78);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(250, 30);
             this.button22.TabIndex = 8;
-            this.button22.Text = "button22";
-            this.button22.UseVisualStyleBackColor = true;
+            this.button22.Text = "Coop";
+            this.button22.UseVisualStyleBackColor = false;
             // 
             // panel7
             // 
@@ -323,17 +334,23 @@ namespace HunrgyRun
             // 
             // button11
             // 
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.button11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button11.FlatAppearance.BorderSize = 3;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button11.Location = new System.Drawing.Point(0, 0);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(250, 50);
             this.button11.TabIndex = 3;
             this.button11.Text = "Supermercati";
-            this.button11.UseVisualStyleBackColor = true;
+            this.button11.UseVisualStyleBackColor = false;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // panel8
             // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.panel8.Controls.Add(this.button16);
             this.panel8.Controls.Add(this.button18);
             this.panel8.Controls.Add(this.button17);
@@ -346,39 +363,59 @@ namespace HunrgyRun
             // 
             // button16
             // 
+            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button16.FlatAppearance.BorderSize = 2;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button16.Location = new System.Drawing.Point(0, 119);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(250, 30);
             this.button16.TabIndex = 9;
-            this.button16.Text = "button16";
-            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Text = "Taco Bell";
+            this.button16.UseVisualStyleBackColor = false;
             // 
             // button18
             // 
+            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button18.FlatAppearance.BorderSize = 2;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button18.Location = new System.Drawing.Point(0, 83);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(250, 30);
             this.button18.TabIndex = 8;
-            this.button18.Text = "button18";
-            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Text = "KFC";
+            this.button18.UseVisualStyleBackColor = false;
             // 
             // button17
             // 
+            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button17.FlatAppearance.BorderSize = 2;
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button17.Location = new System.Drawing.Point(0, 11);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(250, 30);
             this.button17.TabIndex = 6;
-            this.button17.Text = "button17";
-            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Text = "McDonald\'s";
+            this.button17.UseVisualStyleBackColor = false;
             // 
             // button19
             // 
+            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button19.FlatAppearance.BorderSize = 2;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button19.Location = new System.Drawing.Point(0, 47);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(250, 30);
             this.button19.TabIndex = 7;
-            this.button19.Text = "button19";
-            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Text = "Burger King";
+            this.button19.UseVisualStyleBackColor = false;
             // 
             // panel9
             // 
@@ -391,17 +428,23 @@ namespace HunrgyRun
             // 
             // button10
             // 
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.button10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button10.FlatAppearance.BorderSize = 3;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button10.Location = new System.Drawing.Point(0, 0);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(250, 50);
             this.button10.TabIndex = 2;
             this.button10.Text = "Fast Food";
-            this.button10.UseVisualStyleBackColor = true;
+            this.button10.UseVisualStyleBackColor = false;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // panel10
             // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.panel10.Controls.Add(this.button15);
             this.panel10.Controls.Add(this.button12);
             this.panel10.Controls.Add(this.button14);
@@ -414,42 +457,62 @@ namespace HunrgyRun
             // 
             // button15
             // 
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button15.FlatAppearance.BorderSize = 2;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button15.Location = new System.Drawing.Point(0, 114);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(250, 30);
             this.button15.TabIndex = 5;
-            this.button15.Text = "button15";
-            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Text = "Beer Garden";
+            this.button15.UseVisualStyleBackColor = false;
             this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button12
             // 
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button12.FlatAppearance.BorderSize = 2;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button12.Location = new System.Drawing.Point(0, 6);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(250, 30);
             this.button12.TabIndex = 2;
-            this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Text = "Limbo";
+            this.button12.UseVisualStyleBackColor = false;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button14
             // 
+            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button14.FlatAppearance.BorderSize = 2;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button14.Location = new System.Drawing.Point(0, 78);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(250, 30);
             this.button14.TabIndex = 4;
-            this.button14.Text = "button14";
-            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Text = "Old Wild West";
+            this.button14.UseVisualStyleBackColor = false;
             this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button13
             // 
+            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button13.FlatAppearance.BorderSize = 2;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button13.Location = new System.Drawing.Point(0, 42);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(250, 30);
             this.button13.TabIndex = 3;
-            this.button13.Text = "button13";
-            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Text = "All You Can Eat";
+            this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // panel5
@@ -463,17 +526,23 @@ namespace HunrgyRun
             // 
             // button9
             // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.button9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button9.FlatAppearance.BorderSize = 3;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button9.Location = new System.Drawing.Point(0, 0);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(250, 50);
             this.button9.TabIndex = 1;
             this.button9.Text = "Ristoranti";
-            this.button9.UseVisualStyleBackColor = true;
+            this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
@@ -487,6 +556,7 @@ namespace HunrgyRun
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.label1.Location = new System.Drawing.Point(23, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(203, 37);
@@ -495,18 +565,18 @@ namespace HunrgyRun
             // 
             // panelChildFrom
             // 
-            this.panelChildFrom.BackColor = System.Drawing.Color.White;
+            this.panelChildFrom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.panelChildFrom.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildFrom.Location = new System.Drawing.Point(250, 120);
             this.panelChildFrom.Name = "panelChildFrom";
-            this.panelChildFrom.Size = new System.Drawing.Size(1134, 668);
+            this.panelChildFrom.Size = new System.Drawing.Size(1134, 762);
             this.panelChildFrom.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1384, 788);
+            this.ClientSize = new System.Drawing.Size(1384, 882);
             this.Controls.Add(this.panelChildFrom);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -546,9 +616,6 @@ namespace HunrgyRun
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.LinkLabel linkLabel3;
-        private System.Windows.Forms.LinkLabel linkLabel2;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;

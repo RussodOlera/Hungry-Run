@@ -1,0 +1,8 @@
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\HungryRun_Server\HungryRun_Server\bin\Debug\HungryRun_Server.exe.config
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\HungryRun_Server\HungryRun_Server\bin\Debug\HungryRun_Server.exe
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\HungryRun_Server\HungryRun_Server\bin\Debug\HungryRun_Server.pdb
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\HungryRun_Server\HungryRun_Server\obj\Debug\HungryRun_Server.csproj.AssemblyReference.cache
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\HungryRun_Server\HungryRun_Server\obj\Debug\HungryRun_Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\HungryRun_Server\HungryRun_Server\obj\Debug\HungryRun_Server.csproj.CoreCompileInputs.cache
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\HungryRun_Server\HungryRun_Server\obj\Debug\HungryRun_Server.exe
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\HungryRun_Server\HungryRun_Server\obj\Debug\HungryRun_Server.pdb

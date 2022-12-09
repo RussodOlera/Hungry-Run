@@ -1,0 +1,5 @@
+Tagliere Formaggi;1;5,00
+Crocchette di Bufala;1;4,50
+Tagliolini;2;18,00
+Cotoletta;1;13,00
+Birra Artigianale;2;6,50

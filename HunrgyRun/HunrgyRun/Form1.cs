@@ -4,14 +4,21 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Sockets;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace HunrgyRun
 {
     public partial class Form1 : Form
     {
+        public static IPAddress ipAddress = IPAddress.Parse("127.0.0.1");
+        IPEndPoint remoteEP = new IPEndPoint(ipAddress, 5000);
+        Socket socket;
+        public string User_logged;
         public Form1()
         {
             InitializeComponent();
@@ -22,7 +29,7 @@ namespace HunrgyRun
         {
             panel10.Visible = false;
             panel8.Visible = false;
-            panel6.Visible = false;
+            panel6.Visible = false; 
         }
         private void hide_menu()
         {
@@ -104,7 +111,7 @@ namespace HunrgyRun
 
         private void button12_Click(object sender, EventArgs e)
         {
-            openChilFormMenu(new Form2());
+            openChilFormMenu(new Form2(User_logged));
         }
 
         private void button13_Click(object sender, EventArgs e)
@@ -124,8 +131,7 @@ namespace HunrgyRun
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form f = new Form_Register();
-            //this.WindowState = FormWindowState.Minimized;
+            Form f = new Form_Register(User_logged);
             f.Show();
         }
 
@@ -133,6 +139,57 @@ namespace HunrgyRun
         {
             Form f = new Form_LogIn();
             f.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
+            string path = Application.StartupPath + "Users/User_Logged.txt";
+            string[] line;
+            StreamReader sr = new StreamReader(path);
+            line = sr.ReadLine().Split(";");
+            sr.Close();
+            try
+            {
+                byte[] bytes = new byte[1024];
+                byte[] toSend;
+                string data = null;
+                socket = new Socket(ipAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+                socket.Connect(remoteEP);
+                try
+                {
+                    toSend = Encoding.ASCII.GetBytes("logout;"+line + " Disconnected...");
+                    socket.Send(toSend);
+                }
+                catch (ArgumentNullException ane)
+                {
+                    MessageBox.Show("ArgumentNullException : {0}", ane.ToString());
+                }
+                catch (SocketException se)
+                {
+                    MessageBox.Show("SocketException : {0}", se.ToString());
+                }
+                catch (Exception Events)
+                {
+                    MessageBox.Show("Unexpected exception : {0}", Events.ToString());
+                }
+            }
+            catch (Exception Events)
+            {
+                Console.WriteLine(Events.ToString());
+            }
+            File.Delete(path);
+            MessageBox.Show("Ti sei disconnesso");
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            openChilFormMenu(new Cart());
+        }
+
+        private void button2_MouseEnter(object sender, EventArgs e)
+        {
+
         }
     }
 }

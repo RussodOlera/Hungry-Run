@@ -20,3 +20,6 @@ C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug
 C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.Form4.resources
 C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.Form5.resources
 C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.Form_Register.resources
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.Form_LogIn.resources
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.Cart.resources
+C:\Users\elisa\Source\Repos\RussodOlera\Hungry-Run\HunrgyRun\HunrgyRun\obj\Debug\netcoreapp3.1\HunrgyRun.Buy.resources

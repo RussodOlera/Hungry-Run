@@ -1,0 +1,5 @@
+Tagliere Formaggi;1;5,00
+Scoglio;3;14,50
+Spiedini di Pollo;2;12,50
+Bruschette;3;6,50
+Tagliere Salumi;1;5,00

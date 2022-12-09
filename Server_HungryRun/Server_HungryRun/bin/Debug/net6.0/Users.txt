@@ -1,0 +1,3 @@
+Andrian;Elizarov;15/Lug/2003;Via Lacca, 31;andrigt03@gmail.com;+393921918771;Carta di credito o debito;Andrian Elizarov;12345678;123;Giu/2030;Russo_dOlera;123
+M;m;28/Mag/2000;via cia;nonloso@gmail.com;+393276845958;Carta di credito o debito;M m;12345678;123;Mar/2020;MMM;123
+Michael;Locatelli;13/Mar/2003;XBRS;Er3Dita.com;+39123456789;Carta di credito o debito;Michael Locatelli;12345678;123;Giu/2030;3Dita;123

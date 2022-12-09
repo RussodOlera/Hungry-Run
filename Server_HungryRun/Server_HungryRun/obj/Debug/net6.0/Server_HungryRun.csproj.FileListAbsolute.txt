@@ -1,0 +1,15 @@
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\bin\Debug\net6.0\Server_HungryRun.exe
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\bin\Debug\net6.0\Server_HungryRun.deps.json
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\bin\Debug\net6.0\Server_HungryRun.runtimeconfig.json
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\bin\Debug\net6.0\Server_HungryRun.dll
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\bin\Debug\net6.0\Server_HungryRun.pdb
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\obj\Debug\net6.0\Server_HungryRun.csproj.AssemblyReference.cache
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\obj\Debug\net6.0\Server_HungryRun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\obj\Debug\net6.0\Server_HungryRun.AssemblyInfoInputs.cache
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\obj\Debug\net6.0\Server_HungryRun.AssemblyInfo.cs
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\obj\Debug\net6.0\Server_HungryRun.csproj.CoreCompileInputs.cache
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\obj\Debug\net6.0\Server_HungryRun.dll
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\obj\Debug\net6.0\refint\Server_HungryRun.dll
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\obj\Debug\net6.0\Server_HungryRun.pdb
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\obj\Debug\net6.0\Server_HungryRun.genruntimeconfig.cache
+C:\Users\elisa\source\repos\RussodOlera\Hungry-Run\Server_HungryRun\Server_HungryRun\obj\Debug\net6.0\ref\Server_HungryRun.dll
