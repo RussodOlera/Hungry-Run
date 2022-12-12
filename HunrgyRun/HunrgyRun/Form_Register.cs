@@ -171,6 +171,20 @@ namespace HunrgyRun
         {
 
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkBox1.Checked)
+            {
+                textBox12.UseSystemPasswordChar = false;
+                textBox13.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                textBox12.UseSystemPasswordChar = true;
+                textBox13.UseSystemPasswordChar = true;
+            }
+        }
     }
     }
 

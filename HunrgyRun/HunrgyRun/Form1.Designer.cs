@@ -121,6 +121,7 @@ namespace HunrgyRun
             // 
             this.button5.FlatAppearance.BorderSize = 2;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button5.Image = global::HunrgyRun.Properties.Resources.minimize_sign;
             this.button5.Location = new System.Drawing.Point(1252, 12);
             this.button5.Name = "button5";
@@ -133,6 +134,7 @@ namespace HunrgyRun
             // 
             this.button6.FlatAppearance.BorderSize = 2;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button6.Image = global::HunrgyRun.Properties.Resources.full_screen;
             this.button6.Location = new System.Drawing.Point(1292, 12);
             this.button6.Name = "button6";
@@ -146,6 +148,7 @@ namespace HunrgyRun
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.button7.FlatAppearance.BorderSize = 2;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
             this.button7.Location = new System.Drawing.Point(1332, 12);
             this.button7.Name = "button7";
@@ -201,12 +204,14 @@ namespace HunrgyRun
             // 
             this.button1.FlatAppearance.BorderSize = 2;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button1.Image = global::HunrgyRun.Properties.Resources.magnifying_glass;
             this.button1.Location = new System.Drawing.Point(815, 65);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(135, 44);
             this.button1.TabIndex = 4;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
@@ -219,6 +224,8 @@ namespace HunrgyRun
             this.textBox1.Size = new System.Drawing.Size(535, 39);
             this.textBox1.TabIndex = 3;
             this.textBox1.Text = "Ristoranti,Fast Food,Supermercati";
+            this.textBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox1_MouseClick);
+            this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
             // 
             // panel3
             // 
@@ -251,7 +258,7 @@ namespace HunrgyRun
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 120);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(250, 762);
+            this.panel2.Size = new System.Drawing.Size(250, 668);
             this.panel2.TabIndex = 1;
             // 
             // panel6
@@ -284,6 +291,7 @@ namespace HunrgyRun
             // button21
             // 
             this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button21.Enabled = false;
             this.button21.FlatAppearance.BorderSize = 2;
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button21.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -298,6 +306,7 @@ namespace HunrgyRun
             // button23
             // 
             this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button23.Enabled = false;
             this.button23.FlatAppearance.BorderSize = 2;
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button23.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -312,6 +321,7 @@ namespace HunrgyRun
             // button22
             // 
             this.button22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button22.Enabled = false;
             this.button22.FlatAppearance.BorderSize = 2;
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button22.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -364,6 +374,7 @@ namespace HunrgyRun
             // button16
             // 
             this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button16.Enabled = false;
             this.button16.FlatAppearance.BorderSize = 2;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -378,6 +389,7 @@ namespace HunrgyRun
             // button18
             // 
             this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button18.Enabled = false;
             this.button18.FlatAppearance.BorderSize = 2;
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -392,6 +404,7 @@ namespace HunrgyRun
             // button17
             // 
             this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button17.Enabled = false;
             this.button17.FlatAppearance.BorderSize = 2;
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -406,6 +419,7 @@ namespace HunrgyRun
             // button19
             // 
             this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.button19.Enabled = false;
             this.button19.FlatAppearance.BorderSize = 2;
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button19.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -569,14 +583,14 @@ namespace HunrgyRun
             this.panelChildFrom.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildFrom.Location = new System.Drawing.Point(250, 120);
             this.panelChildFrom.Name = "panelChildFrom";
-            this.panelChildFrom.Size = new System.Drawing.Size(1134, 762);
+            this.panelChildFrom.Size = new System.Drawing.Size(1134, 668);
             this.panelChildFrom.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1384, 882);
+            this.ClientSize = new System.Drawing.Size(1384, 788);
             this.Controls.Add(this.panelChildFrom);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

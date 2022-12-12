@@ -61,7 +61,6 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.radioButton10 = new System.Windows.Forms.RadioButton();
@@ -74,7 +73,6 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.radioButton13 = new System.Windows.Forms.RadioButton();
             this.radioButton14 = new System.Windows.Forms.RadioButton();
             this.radioButton15 = new System.Windows.Forms.RadioButton();
             this.radioButton16 = new System.Windows.Forms.RadioButton();
@@ -119,13 +117,14 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.numericUpDown1);
             this.panel1.Controls.Add(this.label8);
-            this.panel1.Location = new System.Drawing.Point(16, 394);
+            this.panel1.Location = new System.Drawing.Point(16, 399);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(818, 96);
             this.panel1.TabIndex = 20;
@@ -133,14 +132,20 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(235, 62);
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
+            this.label10.Location = new System.Drawing.Point(237, 57);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(44, 15);
+            this.label10.Size = new System.Drawing.Size(66, 21);
             this.label10.TabIndex = 5;
             this.label10.Text = "label10";
             // 
             // button4
             // 
+            this.button4.FlatAppearance.BorderSize = 2;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button4.Location = new System.Drawing.Point(632, 49);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(131, 41);
@@ -150,6 +155,10 @@
             // 
             // button3
             // 
+            this.button3.FlatAppearance.BorderSize = 2;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
             this.button3.Location = new System.Drawing.Point(632, 6);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(131, 41);
@@ -160,9 +169,11 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(235, 38);
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
+            this.label9.Location = new System.Drawing.Point(237, 33);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 15);
+            this.label9.Size = new System.Drawing.Size(57, 21);
             this.label9.TabIndex = 2;
             this.label9.Text = "label9";
             // 
@@ -191,17 +202,20 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(163, 38);
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
+            this.label8.Location = new System.Drawing.Point(154, 33);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 15);
+            this.label8.Size = new System.Drawing.Size(77, 21);
             this.label8.TabIndex = 0;
             this.label8.Text = "Quantità";
             // 
             // listBox3
             // 
+            this.listBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.listBox3.FormattingEnabled = true;
             this.listBox3.ItemHeight = 15;
-            this.listBox3.Location = new System.Drawing.Point(1033, 79);
+            this.listBox3.Location = new System.Drawing.Point(1033, 84);
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(73, 304);
             this.listBox3.TabIndex = 22;
@@ -210,7 +224,7 @@
             // 
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 15;
-            this.listBox2.Location = new System.Drawing.Point(1033, 79);
+            this.listBox2.Location = new System.Drawing.Point(1033, 84);
             this.listBox2.Name = "listBox2";
             this.listBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.listBox2.Size = new System.Drawing.Size(73, 304);
@@ -218,16 +232,21 @@
             // 
             // listBox1
             // 
+            this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(844, 79);
+            this.listBox1.Location = new System.Drawing.Point(844, 84);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(192, 304);
             this.listBox1.TabIndex = 19;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(844, 444);
+            this.button2.FlatAppearance.BorderSize = 2;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
+            this.button2.Location = new System.Drawing.Point(844, 449);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(262, 44);
             this.button2.TabIndex = 18;
@@ -236,7 +255,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(844, 394);
+            this.button1.FlatAppearance.BorderSize = 2;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
+            this.button1.Location = new System.Drawing.Point(844, 399);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(262, 44);
             this.button1.TabIndex = 17;
@@ -250,7 +273,7 @@
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Location = new System.Drawing.Point(12, 59);
+            this.tabControl1.Location = new System.Drawing.Point(12, 64);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(826, 329);
@@ -258,6 +281,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.tabPage1.Controls.Add(this.label7);
             this.tabPage1.Controls.Add(this.label6);
             this.tabPage1.Controls.Add(this.label5);
@@ -276,7 +300,6 @@
             this.tabPage1.Size = new System.Drawing.Size(818, 301);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
@@ -337,76 +360,82 @@
             this.radioButton6.AutoSize = true;
             this.radioButton6.Location = new System.Drawing.Point(9, 176);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(164, 19);
+            this.radioButton6.Size = new System.Drawing.Size(102, 19);
             this.radioButton6.TabIndex = 6;
             this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Olive Ascolane ptz. 5 4,00€";
+            this.radioButton6.Text = "Pane al vapore";
             this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged_1);
             // 
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
             this.radioButton5.Location = new System.Drawing.Point(9, 151);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(193, 19);
+            this.radioButton5.Size = new System.Drawing.Size(94, 19);
             this.radioButton5.TabIndex = 5;
             this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Crocchette di Bufala ptz. 6 4.50€";
+            this.radioButton5.Text = "Fiori di zucca";
             this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged_1);
             // 
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(9, 126);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(193, 19);
+            this.radioButton4.Size = new System.Drawing.Size(118, 19);
             this.radioButton4.TabIndex = 4;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Crocchette di Patate ptz. 6 4,00€";
+            this.radioButton4.Text = "Chele di granchio";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged_1);
             // 
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(9, 101);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(356, 19);
+            this.radioButton3.Size = new System.Drawing.Size(124, 19);
             this.radioButton3.TabIndex = 3;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Bruschetta ptz. 4 (Pane, Pomodorini, Olio, Aglio, Origano)6,50€";
+            this.radioButton3.Text = "Involtini Primavera";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged_1);
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(9, 76);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(428, 19);
+            this.radioButton2.Size = new System.Drawing.Size(170, 19);
             this.radioButton2.TabIndex = 2;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Tagliere Formaggi(Grana, Brie, Taleggio Bergamasco, Provola, Pecorino)5,00€";
+            this.radioButton2.Text = "Ravioli di verdure al vapore ";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged_1);
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(9, 51);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(417, 19);
+            this.radioButton1.Size = new System.Drawing.Size(156, 19);
             this.radioButton1.TabIndex = 1;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Tagliere Salumi  (Salame, prsc. Crudo, prsc. Cotto, Mortadella, Speck)\t\t5,00 €";
+            this.radioButton1.Text = "Ravioli di carne al vapore";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged_1);
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.tabPage2.Controls.Add(this.label11);
             this.tabPage2.Controls.Add(this.label12);
             this.tabPage2.Controls.Add(this.label13);
             this.tabPage2.Controls.Add(this.label14);
             this.tabPage2.Controls.Add(this.label15);
             this.tabPage2.Controls.Add(this.label16);
-            this.tabPage2.Controls.Add(this.radioButton7);
             this.tabPage2.Controls.Add(this.radioButton8);
             this.tabPage2.Controls.Add(this.radioButton9);
             this.tabPage2.Controls.Add(this.radioButton10);
@@ -418,7 +447,6 @@
             this.tabPage2.Size = new System.Drawing.Size(818, 301);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
@@ -474,81 +502,75 @@
             this.label16.TabIndex = 19;
             this.label16.Text = "12,00€";
             // 
-            // radioButton7
-            // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(9, 173);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(134, 19);
-            this.radioButton7.TabIndex = 18;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "Foiade alla Boscaiola";
-            this.radioButton7.UseVisualStyleBackColor = true;
-            // 
             // radioButton8
             // 
             this.radioButton8.AutoSize = true;
             this.radioButton8.Location = new System.Drawing.Point(9, 148);
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(117, 19);
+            this.radioButton8.Size = new System.Drawing.Size(86, 19);
             this.radioButton8.TabIndex = 17;
             this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "Pasta allo Scoglio";
+            this.radioButton8.Text = "Riso bianco";
             this.radioButton8.UseVisualStyleBackColor = true;
+            this.radioButton8.CheckedChanged += new System.EventHandler(this.radioButton8_CheckedChanged_1);
             // 
             // radioButton9
             // 
             this.radioButton9.AutoSize = true;
             this.radioButton9.Location = new System.Drawing.Point(9, 123);
             this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(124, 19);
+            this.radioButton9.Size = new System.Drawing.Size(169, 19);
             this.radioButton9.TabIndex = 16;
             this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "Tagliolini al Tartufo";
+            this.radioButton9.Text = "Riso con curry pollo e uovo";
             this.radioButton9.UseVisualStyleBackColor = true;
+            this.radioButton9.CheckedChanged += new System.EventHandler(this.radioButton9_CheckedChanged_1);
             // 
             // radioButton10
             // 
             this.radioButton10.AutoSize = true;
             this.radioButton10.Location = new System.Drawing.Point(9, 98);
             this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(147, 19);
+            this.radioButton10.Size = new System.Drawing.Size(107, 19);
             this.radioButton10.TabIndex = 15;
             this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "Lasagne alla Bolognese";
+            this.radioButton10.Text = "Riso all\'anguilla";
             this.radioButton10.UseVisualStyleBackColor = true;
+            this.radioButton10.CheckedChanged += new System.EventHandler(this.radioButton10_CheckedChanged_1);
             // 
             // radioButton11
             // 
             this.radioButton11.AutoSize = true;
             this.radioButton11.Location = new System.Drawing.Point(9, 73);
             this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(183, 19);
+            this.radioButton11.Size = new System.Drawing.Size(237, 19);
             this.radioButton11.TabIndex = 14;
             this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "Tagliatelle al Ragù di cinghiale";
+            this.radioButton11.Text = "Riso saltato con gamberi,verdure e uovo";
             this.radioButton11.UseVisualStyleBackColor = true;
+            this.radioButton11.CheckedChanged += new System.EventHandler(this.radioButton11_CheckedChanged_1);
             // 
             // radioButton12
             // 
             this.radioButton12.AutoSize = true;
             this.radioButton12.Location = new System.Drawing.Point(9, 48);
             this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(167, 19);
+            this.radioButton12.Size = new System.Drawing.Size(165, 19);
             this.radioButton12.TabIndex = 13;
             this.radioButton12.TabStop = true;
-            this.radioButton12.Text = "Casoncelli alla Bergamasca";
+            this.radioButton12.Text = "Riso saltato alla Cantonese";
             this.radioButton12.UseVisualStyleBackColor = true;
+            this.radioButton12.CheckedChanged += new System.EventHandler(this.radioButton12_CheckedChanged_1);
             // 
             // tabPage3
             // 
+            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.tabPage3.Controls.Add(this.label17);
             this.tabPage3.Controls.Add(this.label18);
             this.tabPage3.Controls.Add(this.label19);
             this.tabPage3.Controls.Add(this.label20);
             this.tabPage3.Controls.Add(this.label21);
             this.tabPage3.Controls.Add(this.label22);
-            this.tabPage3.Controls.Add(this.radioButton13);
             this.tabPage3.Controls.Add(this.radioButton14);
             this.tabPage3.Controls.Add(this.radioButton15);
             this.tabPage3.Controls.Add(this.radioButton16);
@@ -560,7 +582,6 @@
             this.tabPage3.Size = new System.Drawing.Size(818, 301);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
-            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // label17
             // 
@@ -616,68 +637,64 @@
             this.label22.TabIndex = 19;
             this.label22.Text = "18,00€";
             // 
-            // radioButton13
-            // 
-            this.radioButton13.AutoSize = true;
-            this.radioButton13.Location = new System.Drawing.Point(9, 191);
-            this.radioButton13.Name = "radioButton13";
-            this.radioButton13.Size = new System.Drawing.Size(122, 19);
-            this.radioButton13.TabIndex = 18;
-            this.radioButton13.Text = "Tartare di Salmone";
-            this.radioButton13.UseVisualStyleBackColor = true;
-            // 
             // radioButton14
             // 
             this.radioButton14.AutoSize = true;
             this.radioButton14.Location = new System.Drawing.Point(9, 166);
             this.radioButton14.Name = "radioButton14";
-            this.radioButton14.Size = new System.Drawing.Size(227, 19);
+            this.radioButton14.Size = new System.Drawing.Size(163, 19);
             this.radioButton14.TabIndex = 17;
-            this.radioButton14.Text = "Spiedo di Pollo con verdure alla griglia";
+            this.radioButton14.Text = "Pollo con funghi e bambù";
             this.radioButton14.UseVisualStyleBackColor = true;
+            this.radioButton14.CheckedChanged += new System.EventHandler(this.radioButton14_CheckedChanged_1);
             // 
             // radioButton15
             // 
             this.radioButton15.AutoSize = true;
             this.radioButton15.Location = new System.Drawing.Point(9, 141);
             this.radioButton15.Name = "radioButton15";
-            this.radioButton15.Size = new System.Drawing.Size(115, 19);
+            this.radioButton15.Size = new System.Drawing.Size(149, 19);
             this.radioButton15.TabIndex = 16;
-            this.radioButton15.Text = "Branzino al forno";
+            this.radioButton15.Text = "Pollo in salsa agrodolce";
             this.radioButton15.UseVisualStyleBackColor = true;
+            this.radioButton15.CheckedChanged += new System.EventHandler(this.radioButton15_CheckedChanged_1);
             // 
             // radioButton16
             // 
             this.radioButton16.AutoSize = true;
             this.radioButton16.Location = new System.Drawing.Point(9, 116);
             this.radioButton16.Name = "radioButton16";
-            this.radioButton16.Size = new System.Drawing.Size(145, 19);
+            this.radioButton16.Size = new System.Drawing.Size(100, 19);
             this.radioButton16.TabIndex = 15;
-            this.radioButton16.Text = "Cotoletta alla Milanese";
+            this.radioButton16.Text = "Pollo piccante";
             this.radioButton16.UseVisualStyleBackColor = true;
+            this.radioButton16.CheckedChanged += new System.EventHandler(this.radioButton16_CheckedChanged_1);
             // 
             // radioButton17
             // 
             this.radioButton17.AutoSize = true;
             this.radioButton17.Location = new System.Drawing.Point(9, 91);
             this.radioButton17.Name = "radioButton17";
-            this.radioButton17.Size = new System.Drawing.Size(86, 19);
+            this.radioButton17.Size = new System.Drawing.Size(101, 19);
             this.radioButton17.TabIndex = 14;
-            this.radioButton17.Text = "Fritto Misto";
+            this.radioButton17.Text = "Pollo e limone";
             this.radioButton17.UseVisualStyleBackColor = true;
+            this.radioButton17.CheckedChanged += new System.EventHandler(this.radioButton17_CheckedChanged_1);
             // 
             // radioButton18
             // 
             this.radioButton18.AutoSize = true;
             this.radioButton18.Location = new System.Drawing.Point(9, 66);
             this.radioButton18.Name = "radioButton18";
-            this.radioButton18.Size = new System.Drawing.Size(117, 19);
+            this.radioButton18.Size = new System.Drawing.Size(129, 19);
             this.radioButton18.TabIndex = 13;
-            this.radioButton18.Text = "Tagliata di Manzo";
+            this.radioButton18.Text = "Pollo con mandorle";
             this.radioButton18.UseVisualStyleBackColor = true;
+            this.radioButton18.CheckedChanged += new System.EventHandler(this.radioButton18_CheckedChanged_1);
             // 
             // tabPage4
             // 
+            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.tabPage4.Controls.Add(this.label23);
             this.tabPage4.Controls.Add(this.label24);
             this.tabPage4.Controls.Add(this.label25);
@@ -696,7 +713,6 @@
             this.tabPage4.Size = new System.Drawing.Size(818, 301);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "tabPage4";
-            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // label23
             // 
@@ -757,69 +773,76 @@
             this.radioButton19.AutoSize = true;
             this.radioButton19.Location = new System.Drawing.Point(9, 194);
             this.radioButton19.Name = "radioButton19";
-            this.radioButton19.Size = new System.Drawing.Size(88, 19);
+            this.radioButton19.Size = new System.Drawing.Size(118, 19);
             this.radioButton19.TabIndex = 18;
             this.radioButton19.TabStop = true;
-            this.radioButton19.Text = "Speck e Brie";
+            this.radioButton19.Text = "Rotolini di cetrioli";
             this.radioButton19.UseVisualStyleBackColor = true;
+            this.radioButton19.CheckedChanged += new System.EventHandler(this.radioButton19_CheckedChanged_1);
             // 
             // radioButton20
             // 
             this.radioButton20.AutoSize = true;
             this.radioButton20.Location = new System.Drawing.Point(9, 169);
             this.radioButton20.Name = "radioButton20";
-            this.radioButton20.Size = new System.Drawing.Size(69, 19);
+            this.radioButton20.Size = new System.Drawing.Size(127, 19);
             this.radioButton20.TabIndex = 17;
             this.radioButton20.TabStop = true;
-            this.radioButton20.Text = "Romana";
+            this.radioButton20.Text = "Rotolini di avocado";
             this.radioButton20.UseVisualStyleBackColor = true;
+            this.radioButton20.CheckedChanged += new System.EventHandler(this.radioButton20_CheckedChanged_1);
             // 
             // radioButton21
             // 
             this.radioButton21.AutoSize = true;
             this.radioButton21.Location = new System.Drawing.Point(9, 144);
             this.radioButton21.Name = "radioButton21";
-            this.radioButton21.Size = new System.Drawing.Size(93, 19);
+            this.radioButton21.Size = new System.Drawing.Size(129, 19);
             this.radioButton21.TabIndex = 16;
             this.radioButton21.TabStop = true;
-            this.radioButton21.Text = "Cappricciosa";
+            this.radioButton21.Text = "Rotolini di granchio";
             this.radioButton21.UseVisualStyleBackColor = true;
+            this.radioButton21.CheckedChanged += new System.EventHandler(this.radioButton21_CheckedChanged_1);
             // 
             // radioButton22
             // 
             this.radioButton22.AutoSize = true;
             this.radioButton22.Location = new System.Drawing.Point(9, 119);
             this.radioButton22.Name = "radioButton22";
-            this.radioButton22.Size = new System.Drawing.Size(168, 19);
+            this.radioButton22.Size = new System.Drawing.Size(126, 19);
             this.radioButton22.TabIndex = 15;
             this.radioButton22.TabStop = true;
-            this.radioButton22.Text = "Prosciutto e Funghi Porcini";
+            this.radioButton22.Text = "Rotolini di gamberi";
             this.radioButton22.UseVisualStyleBackColor = true;
+            this.radioButton22.CheckedChanged += new System.EventHandler(this.radioButton22_CheckedChanged_1);
             // 
             // radioButton23
             // 
             this.radioButton23.AutoSize = true;
             this.radioButton23.Location = new System.Drawing.Point(9, 94);
             this.radioButton23.Name = "radioButton23";
-            this.radioButton23.Size = new System.Drawing.Size(79, 19);
+            this.radioButton23.Size = new System.Drawing.Size(127, 19);
             this.radioButton23.TabIndex = 14;
             this.radioButton23.TabStop = true;
-            this.radioButton23.Text = "Prosciutto";
+            this.radioButton23.Text = "Rotolini di salmone";
             this.radioButton23.UseVisualStyleBackColor = true;
+            this.radioButton23.CheckedChanged += new System.EventHandler(this.radioButton23_CheckedChanged_1);
             // 
             // radioButton24
             // 
             this.radioButton24.AutoSize = true;
             this.radioButton24.Location = new System.Drawing.Point(9, 69);
             this.radioButton24.Name = "radioButton24";
-            this.radioButton24.Size = new System.Drawing.Size(83, 19);
+            this.radioButton24.Size = new System.Drawing.Size(114, 19);
             this.radioButton24.TabIndex = 13;
             this.radioButton24.TabStop = true;
-            this.radioButton24.Text = "Margherita";
+            this.radioButton24.Text = "Rotolini di tonno";
             this.radioButton24.UseVisualStyleBackColor = true;
+            this.radioButton24.CheckedChanged += new System.EventHandler(this.radioButton24_CheckedChanged_1);
             // 
             // tabPage5
             // 
+            this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.tabPage5.Controls.Add(this.label29);
             this.tabPage5.Controls.Add(this.label30);
             this.tabPage5.Controls.Add(this.label31);
@@ -838,7 +861,6 @@
             this.tabPage5.Size = new System.Drawing.Size(818, 301);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "tabPage5";
-            this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // label29
             // 
@@ -899,75 +921,83 @@
             this.radioButton25.AutoSize = true;
             this.radioButton25.Location = new System.Drawing.Point(9, 205);
             this.radioButton25.Name = "radioButton25";
-            this.radioButton25.Size = new System.Drawing.Size(104, 19);
+            this.radioButton25.Size = new System.Drawing.Size(78, 19);
             this.radioButton25.TabIndex = 18;
-            this.radioButton25.Text = "Bibite in lattina";
+            this.radioButton25.Text = "Tataki Roll";
             this.radioButton25.UseVisualStyleBackColor = true;
+            this.radioButton25.CheckedChanged += new System.EventHandler(this.radioButton25_CheckedChanged_1);
             // 
             // radioButton26
             // 
             this.radioButton26.AutoSize = true;
             this.radioButton26.Location = new System.Drawing.Point(9, 180);
             this.radioButton26.Name = "radioButton26";
-            this.radioButton26.Size = new System.Drawing.Size(101, 19);
+            this.radioButton26.Size = new System.Drawing.Size(74, 19);
             this.radioButton26.TabIndex = 17;
-            this.radioButton26.Text = "Vini della Casa";
+            this.radioButton26.Text = "Tiger Roll";
             this.radioButton26.UseVisualStyleBackColor = true;
+            this.radioButton26.CheckedChanged += new System.EventHandler(this.radioButton26_CheckedChanged_1);
             // 
             // radioButton27
             // 
             this.radioButton27.AutoSize = true;
             this.radioButton27.Location = new System.Drawing.Point(9, 155);
             this.radioButton27.Name = "radioButton27";
-            this.radioButton27.Size = new System.Drawing.Size(139, 19);
+            this.radioButton27.Size = new System.Drawing.Size(87, 19);
             this.radioButton27.TabIndex = 16;
-            this.radioButton27.Text = "Vino Bianco/Rosso  1l";
+            this.radioButton27.Text = "Dragon Roll";
             this.radioButton27.UseVisualStyleBackColor = true;
+            this.radioButton27.CheckedChanged += new System.EventHandler(this.radioButton27_CheckedChanged_1);
             // 
             // radioButton28
             // 
             this.radioButton28.AutoSize = true;
             this.radioButton28.Location = new System.Drawing.Point(9, 130);
             this.radioButton28.Name = "radioButton28";
-            this.radioButton28.Size = new System.Drawing.Size(109, 19);
+            this.radioButton28.Size = new System.Drawing.Size(121, 19);
             this.radioButton28.TabIndex = 15;
-            this.radioButton28.Text = "Birra Artigianale";
+            this.radioButton28.Text = "Green Dragon Roll";
             this.radioButton28.UseVisualStyleBackColor = true;
+            this.radioButton28.CheckedChanged += new System.EventHandler(this.radioButton28_CheckedChanged_1);
             // 
             // radioButton29
             // 
             this.radioButton29.AutoSize = true;
             this.radioButton29.Location = new System.Drawing.Point(9, 105);
             this.radioButton29.Name = "radioButton29";
-            this.radioButton29.Size = new System.Drawing.Size(102, 19);
+            this.radioButton29.Size = new System.Drawing.Size(94, 19);
             this.radioButton29.TabIndex = 14;
-            this.radioButton29.Text = "Birra alla Spina";
+            this.radioButton29.Text = "Rainbow Roll";
             this.radioButton29.UseVisualStyleBackColor = true;
+            this.radioButton29.CheckedChanged += new System.EventHandler(this.radioButton29_CheckedChanged_1);
             // 
             // radioButton30
             // 
             this.radioButton30.AutoSize = true;
             this.radioButton30.Location = new System.Drawing.Point(9, 80);
             this.radioButton30.Name = "radioButton30";
-            this.radioButton30.Size = new System.Drawing.Size(215, 19);
+            this.radioButton30.Size = new System.Drawing.Size(82, 19);
             this.radioButton30.TabIndex = 13;
-            this.radioButton30.Text = "Acqua Minerale (Naturale/Frizzante)";
+            this.radioButton30.Text = "Miami Roll";
             this.radioButton30.UseVisualStyleBackColor = true;
+            this.radioButton30.CheckedChanged += new System.EventHandler(this.radioButton30_CheckedChanged_1);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(163)))), ((int)(((byte)(61)))));
+            this.label1.Location = new System.Drawing.Point(12, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 47);
+            this.label1.Size = new System.Drawing.Size(269, 47);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Limbo";
+            this.label1.Text = "All You Can Eat";
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.ClientSize = new System.Drawing.Size(1118, 629);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.listBox3);
@@ -1034,7 +1064,6 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.RadioButton radioButton7;
         private System.Windows.Forms.RadioButton radioButton8;
         private System.Windows.Forms.RadioButton radioButton9;
         private System.Windows.Forms.RadioButton radioButton10;
@@ -1047,7 +1076,6 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.RadioButton radioButton13;
         private System.Windows.Forms.RadioButton radioButton14;
         private System.Windows.Forms.RadioButton radioButton15;
         private System.Windows.Forms.RadioButton radioButton16;

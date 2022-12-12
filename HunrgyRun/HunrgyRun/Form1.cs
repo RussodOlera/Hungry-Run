@@ -116,7 +116,7 @@ namespace HunrgyRun
 
         private void button13_Click(object sender, EventArgs e)
         {
-            openChilFormMenu(new Form3());
+            openChilFormMenu(new Form3(User_logged));
         }
 
         private void button14_Click(object sender, EventArgs e)
@@ -190,6 +190,33 @@ namespace HunrgyRun
         private void button2_MouseEnter(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox1_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (textBox1.Text != "")
+                textBox1.Text = "";
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+                textBox1.Text = "Ristoranti,Fast Food,Supermercati";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string loc = textBox1.Text;
+            switch(loc)
+            {
+                case "Limbo": openChilFormMenu(new Form2(User_logged));break;
+                case "All You Can Eat": openChilFormMenu(new Form3(User_logged));break;
+                case "Old Wild West": openChilFormMenu(new Form4());break;
+                case "Beer Garden": openChilFormMenu(new Form5());break;
+                default: 
+                    MessageBox.Show("Non ho trovato nessun elemento...");
+                    textBox1.Text = "Ristoranti,Fast Food,Supermercati";break;
+            }
         }
     }
 }

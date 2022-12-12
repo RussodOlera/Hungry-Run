@@ -127,6 +127,12 @@ namespace HunrgyRun
         {
             log_in();
         }
+
+        private void textBox2_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (textBox2.Text == "Password")
+                textBox2.Text = "";
+        }
     }
     
 }
