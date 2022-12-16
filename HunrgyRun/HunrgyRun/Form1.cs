@@ -70,6 +70,11 @@ namespace HunrgyRun
         }
         private void button7_Click(object sender, EventArgs e)
         {
+            string path = Application.StartupPath + "Users/User_Logged.txt";
+            if(File.Exists(path))
+            {
+                File.Delete(path);
+            }
             Environment.Exit(0);
         }
 
@@ -146,39 +151,42 @@ namespace HunrgyRun
             
             string path = Application.StartupPath + "Users/User_Logged.txt";
             string[] line;
-            StreamReader sr = new StreamReader(path);
-            line = sr.ReadLine().Split(";");
-            sr.Close();
-            try
+            if(File.Exists(path))
             {
-                byte[] bytes = new byte[1024];
-                byte[] toSend;
-                string data = null;
-                socket = new Socket(ipAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
-                socket.Connect(remoteEP);
+                StreamReader sr = new StreamReader(path);
+                line = sr.ReadLine().Split(";");
+                sr.Close();
                 try
                 {
-                    toSend = Encoding.ASCII.GetBytes("logout;"+line + " Disconnected...");
-                    socket.Send(toSend);
-                }
-                catch (ArgumentNullException ane)
-                {
-                    MessageBox.Show("ArgumentNullException : {0}", ane.ToString());
-                }
-                catch (SocketException se)
-                {
-                    MessageBox.Show("SocketException : {0}", se.ToString());
+                    byte[] bytes = new byte[1024];
+                    byte[] toSend;
+                    string data = null;
+                    socket = new Socket(ipAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+                    socket.Connect(remoteEP);
+                    try
+                    {
+                        toSend = Encoding.ASCII.GetBytes("logout;" + line + " Disconnected...");
+                        socket.Send(toSend);
+                    }
+                    catch (ArgumentNullException ane)
+                    {
+                        MessageBox.Show("ArgumentNullException : {0}", ane.ToString());
+                    }
+                    catch (SocketException se)
+                    {
+                        MessageBox.Show("SocketException : {0}", se.ToString());
+                    }
+                    catch (Exception Events)
+                    {
+                        MessageBox.Show("Unexpected exception : {0}", Events.ToString());
+                    }
                 }
                 catch (Exception Events)
                 {
-                    MessageBox.Show("Unexpected exception : {0}", Events.ToString());
+                    Console.WriteLine(Events.ToString());
                 }
+                File.Delete(path);
             }
-            catch (Exception Events)
-            {
-                Console.WriteLine(Events.ToString());
-            }
-            File.Delete(path);
             MessageBox.Show("Ti sei disconnesso");
         }
 
